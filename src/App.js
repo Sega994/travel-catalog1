@@ -6,6 +6,7 @@ function App() {
     { id: 2, country: 'Франция', name: 'Париж', desc: 'Эйфелева башня', likes: 0 },
     { id: 3, country: 'Япония', name: 'Токио', desc: 'Суши, храмы', likes: 0 },
     { id: 4, country: 'Германия', name: 'Берлин', desc: 'Бранденбургские ворота', likes: 0 },
+    { id: 5, country: 'Россия', name: 'Москва', desc: 'Кремль', likes: 5 },
   ]);
 
   const [filter, setFilter] = useState('Все');
