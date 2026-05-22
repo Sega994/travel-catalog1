@@ -49,7 +49,9 @@ function App() {
           <h3>{t.name}</h3>
           <p>{t.country}</p>
           <p>{t.desc}</p>
-          <button onClick={() => like(t.id)}>❤️ {t.likes}</button>
+          <button onClick={() => like(t.id)} style={{ backgroundColor: 'green', color: 'white', border: 'none', padding: '5px 10px' }}>
+              ❤️ {t.likes}
+          </button>
         </div>
       ))}
     </div>
